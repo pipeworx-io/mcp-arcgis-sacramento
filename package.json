@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-arcgis-sacramento",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "City of Sacramento GIS — Sacramento, California open geospatial data (ArcGIS).",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-arcgis-sacramento": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "arcgis-sacramento"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-arcgis-sacramento"
+    "url": "git+https://github.com/pipeworx-io/mcp-arcgis-sacramento.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-82eb330910b8287f777f150dadc18a17851514dcb046f0b96c6e8573d99eec86",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
