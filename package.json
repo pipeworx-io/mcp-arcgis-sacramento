@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-arcgis-sacramento",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "City of Sacramento GIS — Sacramento, California open geospatial data (ArcGIS).",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-82eb330910b8287f777f150dadc18a17851514dcb046f0b96c6e8573d99eec86",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-37f78891c4d632515e0ec2ba6fa216c03077ce796a8df3a97e82191eb20f974e",
+    "sourceCommit": "454041882179fae560c06e770b6b7a2f33970015"
   }
 }
